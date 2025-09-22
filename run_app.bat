@@ -1,0 +1,9 @@
+@echo off
+echo Запуск генератора синтетических скважин...
+echo.
+echo Установка зависимостей...
+pip install -r requirements.txt
+echo.
+echo Запуск Streamlit приложения...
+streamlit run app.py
+pause
